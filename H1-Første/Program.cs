@@ -17,8 +17,8 @@ if (start != 0 && start1 != 0)
     Console.WriteLine("Vælg venligst en regenmetode :)");
     ValgAfRegnemetode.Valg(start, start1);
 }
-    
 
+Console.WriteLine("Hej");
 
 
 
