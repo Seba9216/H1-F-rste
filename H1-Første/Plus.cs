@@ -9,11 +9,18 @@ namespace H1_Første
 {
     public class Plus{
 
-        public Plus(int x, int y)
+        public static void Plus1(double x, double y)
         {
-            int result = x + y;
-            Console.WriteLine(x + y == result);
+            double result = x + y;
+            Console.WriteLine(result);
            
+        }
+
+        public static void Gange(double x, double y)
+        {
+            double result = x * y;
+            Console.WriteLine(result);
+
         }
     }
 }

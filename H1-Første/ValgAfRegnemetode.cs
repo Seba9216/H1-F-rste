@@ -14,7 +14,7 @@ namespace H1_Første
          string   choice = Console.ReadLine(); 
             if(choice == "+")
             {
-
+                Plus.Plus1(tal1,tal2);
             }
             if(choice == "-")
             {
@@ -22,7 +22,7 @@ namespace H1_Første
             }
             if(choice == "*") 
             { 
-            
+                Plus.Gange(tal1,tal2);
             }
             if (choice == "/")
             {
