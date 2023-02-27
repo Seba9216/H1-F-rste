@@ -20,6 +20,8 @@ if (start != 0 && start1 != 0)
 
 Console.WriteLine("Hej");
 
+Console.WriteLine("Nej din");
+
 
 
 
