@@ -20,7 +20,7 @@ if (start != 0 && start1 != 0)
 
 Console.WriteLine("Hejssdfsdfsegsg");
 
-Console.WriteLine("Nej din");
+Console.WriteLine("Nej fsdfsdfdin");
 
 
 
