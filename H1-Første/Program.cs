@@ -5,24 +5,22 @@ Console.WriteLine("Hej, Velkommen til vores lommeregner ! :)");
 
 Console.WriteLine("Indtast Venligst et tal ");
 
-string start = Input.input();
-bool valid = Input.isValid(start);
-
-if (valid)
-{
+double start = Input.input();
     Console.WriteLine("Indtast venligst et tal");
-    string start1 = Input.input();
-    bool valid1 = Input.isValid(start1);
-    if (valid1)
+    double start1 = Input.input();
+    if(start1 == 0 || start == 0)
     {
-        int tal1 = Convert.ToInt32(start1);
-        int tal = Convert.ToInt32(start);
-        Console.WriteLine("Vælg venligst en regenmetode :)"); 
-        Minus.minus(tal1, tal);
+    Console.WriteLine("Vælg et tal andet end 0"); 
     }
-
-
+if (start != 0 && start1 != 0)
+{
+    Console.WriteLine("Vælg venligst en regenmetode :)");
+    ValgAfRegnemetode.Valg(start, start1);
 }
+    
+
+
+
 
 
 

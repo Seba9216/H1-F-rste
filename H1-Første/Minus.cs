@@ -8,12 +8,12 @@ namespace H1_Første
 {
     public class Minus
     {
-        public static int minus(int i, int j)
+        public static double minus(double i, double j)
         {
             Console.WriteLine($" {i} - {j} giver {i - j}"); 
             return i - j;
         }
-        public static int divi(int i, int j)
+        public static double divi(double i, double j)
         {
             if(i == 0 && j == 0)
             {
