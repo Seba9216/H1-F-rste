@@ -22,16 +22,5 @@ namespace H1_Første
             Console.WriteLine(result);
 
         }
-
-        public static void Ix(double y, double x)
-        {
-            double res = y; 
-
-            for (int i  =1; i < x; i++)
-            {
-                res = res * y; 
-            }
-            Console.WriteLine($"Du har opløftet {y} {x} antal gange og har fået {res}");
-        }
     }
 }
