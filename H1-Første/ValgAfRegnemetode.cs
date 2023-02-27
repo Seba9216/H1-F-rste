@@ -28,6 +28,10 @@ namespace H1_Første
             {
                 Minus.divi(tal1, tal2); 
             }
+            if(choice == "?")
+            {
+                Plus.Ix(tal1,tal2);
+            }
             else
             {
                 Console.WriteLine("Vælg en regnemetode"); 
