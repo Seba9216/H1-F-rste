@@ -20,6 +20,13 @@ while (true)
         ValgAfRegnemetode.Valg(start, start1);
     }
 
+      if (start != 0 && start1 != 0)
+{
+    Console.WriteLine("Vælg venligst en regenmetode :)");
+    ValgAfRegnemetode.Valg(start, start1);
+}
+
+Console.WriteLine("Hejssdfsdfsegsg");
     Console.WriteLine("Hej");
 
     Console.WriteLine("Nej din");
