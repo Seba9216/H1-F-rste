@@ -18,6 +18,8 @@ if (start != 0 && start1 != 0)
     ValgAfRegnemetode.Valg(start, start1);
 }
 
+Console.WriteLine("Hej");
+
 Console.WriteLine("Nej din");
 
 

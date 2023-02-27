@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace H1_Første
 {
-     public class ValgAfRegnemetode
-    {
+   public class ValgAfRegnemetode
+   {
        public static void Valg(double tal1 , double tal2)
-        {
-         string   choice = Console.ReadLine(); 
+       {
+         string choice = Console.ReadLine(); 
             if(choice == "+")
             {
                 Plus.Plus1(tal1,tal2);
@@ -32,9 +32,6 @@ namespace H1_Første
             {
                 Console.WriteLine("Vælg en regnemetode"); 
             }
-
-
-        }
-
-    }
+       }
+   }
 }
