@@ -23,6 +23,7 @@ namespace H1_Første
 
         }
 
+
         //sætter et tal i anden 
         public static void Ianden(double y, double x)
         {
