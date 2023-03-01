@@ -3,25 +3,34 @@ using H1_Første;
 
 Console.WriteLine("Hej, Velkommen til vores lommeregner ! :)");
 
-Console.WriteLine("Indtast Venligst et tal ");
+while (true)
+{
+    Console.WriteLine("Indtast Venligst et tal ");
 
-double start = Input.input();
+    double start = Input.input();
     Console.WriteLine("Indtast venligst et tal");
     double start1 = Input.input();
-    if(start1 == 0 || start == 0)
+    if (start1 == 0 || start == 0)
     {
-    Console.WriteLine("Vælg et tal andet end 0"); 
+        Console.WriteLine("Vælg et tal andet end 0");
     }
-if (start != 0 && start1 != 0)
+    if (start != 0 && start1 != 0)
+    {
+        Console.WriteLine("Vælg venligst en regenmetode :)");
+        ValgAfRegnemetode.Valg(start, start1);
+    }
+
+      if (start != 0 && start1 != 0)
 {
     Console.WriteLine("Vælg venligst en regenmetode :)");
     ValgAfRegnemetode.Valg(start, start1);
 }
 
-Console.WriteLine("Hej");
+Console.WriteLine("Hejssdfsdfsegsg");
+    Console.WriteLine("Hej");
 
-Console.WriteLine("Nej din");
-
+    Console.WriteLine("Nej din");
+}
 
 
 
