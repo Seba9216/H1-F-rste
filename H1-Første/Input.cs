@@ -16,6 +16,7 @@ namespace H1_Første
             
         }
 
+        // Validering af de vi godtager som input skal være double
         public static double isValid(string res)
         {
             if (res == null)

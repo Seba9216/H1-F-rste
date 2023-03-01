@@ -9,6 +9,11 @@ namespace H1_Første
 {
    public class ValgAfRegnemetode
    {
+        /// <summary>
+        /// står for at kalde de respektive metoder i de forskelige klasser ud fra input
+        /// </summary>
+        /// <param name="tal1"></param>
+        /// <param name="tal2"></param>
        public static void Valg(double tal1 , double tal2)
        {
          string choice = Console.ReadLine(); 
@@ -30,7 +35,7 @@ namespace H1_Første
             }
             if(choice == "?")
             {
-                Plus.Ix(tal1,tal2);
+                Plus.Ianden(tal1,tal2);
             }
             else
             {

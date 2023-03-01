@@ -1,0 +1,23 @@
+Hvad Betyder det at dokumentere? 
+
+Det at dokumentere er ifølge os en måde at nedskrive på en eller måde hvad du har lavet og måske en forklaring på hvordan tingene
+inde i metoden som måske ikke lige umiddelbart giver mening bliver skrevet på sådanne måde
+ at det bliver muligt for andre end en selv at skrive eller ændre i koden.  
+
+Hvad er formålet med dokumentation?
+
+Formålet med dokumentation er at man skulle kunne operere i et system (at skrive kode)
+ at kunne sætte sig ind i hvad der foregår i den givende udviklers/udvikleres program uden at personen/er er til stede. 
+
+Hvordan vil i gribe an at skrive et program og begrunde vores valg? 
+Vi har snakket lidt i gruppen og blevet enige om at først om fremmest skal der grundlægges en struktur i vores filer,
+derefter at der skal være en form for flow i programmet som man bliver enige om i gruppen.
+Ting som metoder og variable navne skal gerne være så forklarende som muligt. 
+Kommentarer i metoder eller en kort forklaring på hvad metoden gør er altid en go tommelfingerregel.  
+
+Værktøjer?
+Værktøjer afhænger meget af opgaven da man med større projekter måske har brug for mere dokumentation
+Da man typisk er flere mennesker med forskelige måder at kode på kan det blive et problem hvis man ikke
+har styr på sin dokumentation. Ting som flowcharts kan man f.eks bruge lucidchart. Til general infrastruktur
+kan man lave en wiki der forklarere det størrer billede af hvordan ens program virker og i selve soruce koden beksrive 
+det på et mere teknisk niveau

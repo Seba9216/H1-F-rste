@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 namespace H1_Første
 {
     public class Plus{
-
+        // ligger 2 tal sammen
         public static void Plus1(double x, double y)
         {
             double result = x + y;
             Console.WriteLine(result);
            
         }
-
+        // ganger 2 tal 
         public static void Gange(double x, double y)
         {
             double result = x * y;
@@ -23,7 +23,8 @@ namespace H1_Første
 
         }
 
-        public static void Ix(double y, double x)
+        //sætter et tal i anden 
+        public static void Ianden(double y, double x)
         {
             double res = y; 
 

@@ -6,7 +6,6 @@ Console.WriteLine("Hej, Velkommen til vores lommeregner ! :)");
 while (true)
 {
     Console.WriteLine("Indtast Venligst et tal ");
-
     double start = Input.input();
     Console.WriteLine("Indtast venligst et tal");
     double start1 = Input.input();
@@ -19,10 +18,7 @@ while (true)
         Console.WriteLine("Vælg venligst en regenmetode :)");
         ValgAfRegnemetode.Valg(start, start1);
     }
-
     Console.WriteLine("Hej");
-
-    Console.WriteLine("Nej din");
 }
 
 
