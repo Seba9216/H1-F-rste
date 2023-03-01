@@ -8,11 +8,14 @@ namespace H1_Første
 {
     public class Minus
     {
+        // trækker 2 tal fra hinanden
         public static double minus(double i, double j)
         {
             Console.WriteLine($" {i} - {j} giver {i - j}"); 
             return i - j;
         }
+
+        //dividere 2 tal
         public static double divi(double i, double j)
         {
             if(i == 0 && j == 0)
