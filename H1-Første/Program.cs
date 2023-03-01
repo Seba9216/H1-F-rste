@@ -21,6 +21,11 @@ while (true)
     Console.WriteLine("Hej");
 }
 
+Console.WriteLine("Hej");
+
+Console.WriteLine("Nej din");
+
+
 
 
 
